@@ -1,0 +1,552 @@
+/*
+========================================================== HEADER ==========================================================*/
+header {
+  background-image: url(Ressource/Images/background-header.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  height: 137vh;
+}
+
+header .contenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header .contenu .header-logo {
+  height: 50px;
+  font-size: revert;
+  margin-top: 5px;
+}
+
+header .contenu .contenu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100vh;
+}
+
+header li {
+  margin-top: 16px;
+}
+
+header li a {
+  text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: 'Staatliches', cursive;
+  color: #fff;
+  font-size: 20px;
+}
+
+header li a:hover {
+  color: red;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+header .accueil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 93vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .accueil img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35%;
+  -ms-flex-item-align: end;
+      align-self: end;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+header .accueil p {
+  font-family: 'Homenaje', sans-serif;
+  color: white;
+  margin-left: 9%;
+  font-size: 20px;
+}
+
+/*
+========================================================== MAIN ==========================================================*/
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(Ressource/Images/background-in-space.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+main .le-jeux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 200px;
+}
+
+main .le-jeux img {
+  height: 400px;
+  width: 570px;
+}
+
+main .jeux-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .jeux-text h1 {
+  font-family: 'Staatliches', 'cursive';
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+main .jeux-text h1::after {
+  display: block;
+  height: 2px;
+  background-color: red;
+  width: 100px;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+main .jeux-text p {
+  font-family: 'Homenaje', sans-serif;
+  color: white;
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+}
+
+/*
+========================================================== ACTUS ==========================================================*/
+.actus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(Ressource/Images/Backgrounds/mass-effect-legendary-edition-reaper-citadel.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Ressource/Images/Backgrounds/mass-effect-legendary-edition-reaper-citadel.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.actus .actus-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.actus .actus-text h1 {
+  font-family: 'Staatliches', 'cursive';
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.actus .actus-text h1::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  background-color: red;
+  width: 200px;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.actus .actus-text .actus-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90%;
+}
+
+.actus .actus-text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Homenaje', sans-serif;
+  color: white;
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+}
+
+/*
+========================================================== BOUTIQUE ========================================================== */
+.boutique {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(Ressource/Backgrounds/MassEffectLegendaryEdition_Texture-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+}
+
+.boutique-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boutique-text h1 {
+  font-family: 'Staatliches', 'cursive';
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.boutique-text h1::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  background-color: red;
+  width: 100px;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 130vh;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.article .boutique-g {
+  height: 100vh;
+  width: 50%;
+}
+
+.article .boutique-d {
+  height: 100vh;
+  width: 50%;
+}
+
+.article .prix {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.article .prix span {
+  font-size: 25px;
+}
+
+.boutique-g {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boutique-g img {
+  height: 210px;
+  width: 160px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 15px #000000;
+          box-shadow: 3px 3px 15px #000000;
+}
+
+.boutique-g .book, .boutique-g .statue, .boutique-g .glass, .boutique-g .pillow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: brown;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.boutique-g p {
+  color: white;
+  max-width: 350px;
+  margin-left: 50px;
+  font-family: 'Homenaje', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boutique-d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boutique-d img {
+  height: 210px;
+  width: 160px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 0 15px #000000;
+          box-shadow: 3px 0 15px #000000;
+}
+
+.boutique-d .omni, .boutique-d .tee, .boutique-d .ring, .boutique-d .puzzle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: brown;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.boutique-d p {
+  color: white;
+  max-width: 350px;
+  margin-left: 50px;
+  font-family: 'Homenaje', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*
+========================================================== IMAGES ========================================================== */
+.game-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vh;
+}
+
+.game-image img {
+  width: 25%;
+  height: 30vh;
+}
+
+/*
+========================================================== FOOTER ========================================================== */
+footer {
+  background-color: black;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer img {
+  height: 40px;
+}
+
+footer .footer-h {
+  height: 30vh;
+  background-color: #252525;
+  text-align: center;
+  padding-top: 25px;
+}
+
+footer .footer-b {
+  height: 20vh;
+  background-color: #181818;
+}
+
+.footer-h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-h h3 {
+  color: white;
+  font-family: 'Staatliches', 'cursive';
+  font-size: 20px;
+}
+
+.footer-h p {
+  font-family: 'Homenaje', sans-serif;
+  color: #a79f9f;
+  font-size: 14px;
+}
+
+.footer-h .footer-img {
+  margin-right: 100px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-h .footer-img img {
+  height: 33px;
+}
+
+.footer-h .jeux {
+  width: 150px;
+  height: 30vh;
+  font-family: 'Homenaje', sans-serif;
+  color: #a79f9f;
+  font-size: 14px;
+}
+
+.footer-h .assistance {
+  width: 150px;
+  height: 30vh;
+}
+
+.footer-h .recrutement {
+  width: 150px;
+  height: 30vh;
+}
+
+.footer-h .contact {
+  width: 150px;
+  height: 30vh;
+}
+
+.footer-h .contact .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 28px;
+}
+
+.footer-h .contact .icon .ic {
+  margin-right: 20px;
+  color: #c80000;
+}
+
+.footer-h .footer-n7 {
+  max-width: 90px;
+  margin-top: 50px;
+}
+
+.footer-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-b .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
